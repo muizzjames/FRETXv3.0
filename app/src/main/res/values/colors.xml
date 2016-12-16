@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#dedede</color>
+    <color name="colorPrimary">#DCDCDC</color>
+    <color name="colorPrimaryDark">#D3D3D3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey_background">#eeeeee</color>
+    <color name="alpha_white">#90ffffff</color>
+    <color name="alpha_black">#90000000</color>
+    <color name="blue_primary">#00bcd4</color>
+    <color name="blue_primary_dark">#00a0b4</color>
+    <color name="blue_tab">#18FFFF</color>
+    <color name="pink_primary">#ff4081</color>
+    <color name="pink_dark">#f50057</color>
+    <color name="red_dark">#fc2403</color>
+    <color name="pink_fallback">#ff80ab</color>
+    <color name="purple_accent">#9c27b0</color>
+    <color name="purple_fallback">#e040fb</color>
+    <color name="light_grey">#fafafa</color>
+    <color name="black_deviders">#1f000000</color>
+    <color name="black_hint_text">#42000000</color>
+    <color name="black_secondary_text">#8A000000</color>
+    <color name="black_text">#de000000</color>
+    <color name="tv_branding">#ffff5722</color>
+    <color name="tv_branding_dark">#ffbf360c</color>
+    <color name="tv_branding_accent">#00B8D4</color>
+    <color name="bt_accent">#00B8D4</color>
+    <color name="media_item_icon_playing">@color/bt_accent</color>
+    <color name="media_item_icon_not_playing">#ccc</color>
+    <color name="drawer_header_background">@color/bt_accent</color>
+    <color name="error_message_background">#ffff1600</color>
+    <color name="drawer_item_selected_background">#feee</color>
+    <color name="drawer_item_tint_color">#ff333333</color>
+    <color name="fullscreen_secondary_line_color">#E5CCCCCC</color>
+    <color name="fullscreen_line_color">#E5FFFFFF</color>
+    <color name="tv_search_button">#ff0097A7</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="default_background">#0096a6</color>
+    <color name="yellow1">#00FFFF</color>
+    <color name="yellow2">#FF00FF</color>
+    <color name="grey05">#123456</color>
+    <color name="orange4">#88FFFF</color>
+    <color name="orange5">#7799FF</color>
+    <color name="blue2">#0000ff</color>
+    <color name="blue3">#0077FF</color>
+    <color name="gray_divider">#e5e5e5</color>
+
+    <color name="theme_black">#313031</color>
+    <drawable name="theme_black">#313031</drawable>
+    <color name="theme_red">#e74c3c</color>
+    <drawable name="theme_red">#e74c3c</drawable>
+    <color name="theme_green">#97e365</color>
+    <drawable name="theme_green">#97e365</drawable>
+    <color name="theme_blue">#41b2ec</color>
+    <drawable name="theme_blue">#41b2ec</drawable>
+    <color name="red_light">#e74c3c</color>
+    <color name="blue_sky">#33b5e5</color>
+
+
+    <color name="gray_dk">#2c2c2c</color>
+    <color name="gray">#656464</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="transparent">#00000000</color>
+    <color name="main_color_red">#e33124</color>
+    <color name="main_color_red_light">#e6a9a9</color>
+    <color name="main_color_red_dk">#c62b1f</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="green">#2ecc71</color>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#cccacc"
+    android:orientation="vertical"
+    tools:context=".SimpleGuitarTunerActivit"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/mainMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/nameString"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:textSize="12dp"
+        android:textColor="#cc2d48"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <fretx.version3.Meter
+        android:id="@+id/meter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.88">
+
+        <ImageView
+            android:id="@+id/tune"
+            android:contentDescription="@string/tuningPlane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+
+         android:src="@drawable/tune_horizontal"/>
+
+        <ImageView
+            android:id="@+id/guitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tune"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/strings0"
+            android:layout_above="@+id/tuningSelector" />
+
+        <Spinner
+            android:id="@+id/tuningSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

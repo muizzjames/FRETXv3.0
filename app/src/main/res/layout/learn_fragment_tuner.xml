@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".SimpleGuitarTunerActivit"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/string1"
+            android:id="@+id/button1"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/string2"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/string3"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/string4"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/string5"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/string6"
+            android:id="@+id/button6"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Time Lapse"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="80dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="11:00"
+        android:id="@+id/tvTimeLapse"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="80dp" />
+
+</RelativeLayout>

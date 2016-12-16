@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/svSongs"
+        android:iconifiedByDefault="true"
+        android:padding="1dp"
+        android:queryHint="@string/searchhidenText"
+        android:background="@drawable/search_view_border"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/lvSongList"
+        android:visibility="visible"
+        android:layout_below="@+id/svSongs"
+        android:numColumns="2"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/svSongs"
+        android:layout_alignStart="@+id/svSongs"
+        android:layout_alignRight="@+id/svSongs"
+        android:layout_alignEnd="@+id/svSongs"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp" />
+
+</RelativeLayout>

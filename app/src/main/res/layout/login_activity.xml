@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login in RockStar"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#040404"
+        android:layout_marginTop="20dp" />
+    <View android:layout_width="fill_parent" android:layout_height="2dp" android:background="#060606"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/view" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/logo"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Play the Guitar Everyday!"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/gray_divider" />
+
+    <Button
+        android:id="@+id/btnFb"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@drawable/btn_fb"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.19" />
+
+</LinearLayout>

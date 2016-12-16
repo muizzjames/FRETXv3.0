@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/relativeLayout">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageCommonFriends"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pic_9"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/theme_blue"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Houng"
+            android:id="@+id/tvYourName"
+            android:textColor="#010000"
+            android:layout_above="@+id/tvPopularity"
+            android:layout_toRightOf="@+id/imageCommonFriends"
+            android:layout_toEndOf="@+id/imageCommonFriends" />
+
+    </LinearLayout>
+
+</LinearLayout>

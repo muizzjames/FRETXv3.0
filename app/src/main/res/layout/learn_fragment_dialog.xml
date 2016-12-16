@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:weightSum="1">
+    
+    <TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:text="You just learned how to hold your guitar!"
+		android:textSize="25sp"
+		android:layout_weight="0.10"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:id="@+id/tvTextView" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:text="Now you have some more available exercises."
+		android:textSize="25sp"
+		android:layout_weight="0.10"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:id="@+id/textView8"
+		android:layout_gravity="center_horizontal" />
+
+	<LinearLayout
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:orientation="vertical"
+		android:layout_marginTop="20dp">
+
+	<Button
+	    android:id="@+id/btnYes"
+	    android:layout_width="278dp"
+	    android:layout_height="wrap_content"
+	    android:text="Go to Learn Menu"
+	    android:background="#3366ff"
+	    android:textColor="#fff"
+	    android:textStyle="bold"    
+	    android:layout_margin="5dp"/>
+
+	<Button
+	    android:id="@+id/btnNo"
+	    android:layout_width="280dp"
+	    android:layout_height="wrap_content"
+	    android:text="Next Exercise"
+	    android:background="#3366ff"
+	    android:textColor="#fff"
+	    android:textStyle="bold"    
+	    android:layout_margin="5dp" />
+	</LinearLayout>
+</LinearLayout>
